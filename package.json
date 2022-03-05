@@ -1,23 +1,26 @@
 {
-	"name": "sveltekit-materialify",
-	"version": "0.0.1",
-	"scripts": {
-		"dev": "svelte-kit dev",
-		"build": "svelte-kit build",
-		"start": "svelte-kit start"
-	},
-	"devDependencies": {
-		"@mdi/js": "^6.5.95",
-		"@sveltejs/adapter-node": "next",
-		"@sveltejs/kit": "next",
-		"md5": "^2.3.0",
-		"sass": "^1.0.0",
-		"svelte": "^3.29.0",
-		"svelte-preprocess": "^4.0.0",
-		"vite": "^2.1.0"
-	},
-	"type": "module",
-	"dependencies": {
-		"svelte-materialify": "^0.3.9"
-	}
+  "name": "kakesa-net",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear"
+  },
+  "devDependencies": {
+    "@mdi/js": "^6.5.95",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "md5": "^2.3.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.0",
+    "svelte-materialify": "^0.3.11"
+  }
 }

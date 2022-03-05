@@ -5,4 +5,4 @@
     npm install
     npm run build
     
-    node build/index.js
+    npm run start

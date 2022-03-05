@@ -2,12 +2,11 @@
 	import {
 		Avatar,
 		Badge,
-		Menu,
-		NavigationDrawer,
 		Divider,
 		Button,
 		Icon,
 		MaterialApp,
+		Ripple,
 	} from "svelte-materialify";
 	import {
 		mdiHome,
@@ -87,24 +86,21 @@
 				</Button>
 			</a>
 		</div>
-		<Divider />
-		<div class="d-flex flex-column">
-			<Badge class="info-color" bordered offsetX={24} offsetY={24}>
-				<Button class="info-color" block>Projects</Button>
-				<span slot="badge">
-					<Icon path={mdiAccountBox} />
-				</span>
-			</Badge>
+		<div
+			class="text-center pt-8 pb-8 text-h5 elevation-2"
+			use:Ripple={{ centered: true }}
+		>
+			Blockchain and Crypto Projects
 		</div>
 		<div class="d-flex flex-column">
 			<a href="https://kioo.fi/" target="_blank">
 				<Button block>$KIOO Reflect Token</Button>
 			</a>
 			<a href="/#" target="_blank">
-				<Button block>(soon) KiooVerse</Button>
+				<Button block>(coming soon) KiooVerse</Button>
 			</a>
 			<a href="/#" target="_blank">
-				<Button block>(soon) Kioo Airdrop</Button>
+				<Button block>(coming soon) Kioo Airdrop</Button>
 			</a>
 			<a
 				href="https://twitter.com/theminercrabs"
@@ -113,6 +109,21 @@
 			>
 				<Button block>TheMinerCrabs DAO</Button>
 			</a>
+			<a
+				href="https://github.com/Axentro/minaxnt"
+				target="_blank"
+				title="MinAXNT for the Axentro blockchain"
+			>
+				<Button block>MinAXNT, CPU only mining for Axentro</Button>
+			</a>
+		</div>
+		<div
+			class="text-center pt-8 pb-8 text-h5 elevation-2"
+			use:Ripple={{ centered: true }}
+		>
+			Projects
+		</div>
+		<div class="d-flex flex-column">
 			<a
 				href="https://congopro.com"
 				target="_blank"
