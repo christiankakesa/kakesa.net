@@ -103,18 +103,18 @@
 				<Button block>(coming soon) Kioo Airdrop</Button>
 			</a>
 			<a
-				href="https://twitter.com/theminercrabs"
-				target="_blank"
-				title="A DAO for Crabada PlayToEarn GameFi"
-			>
-				<Button block>TheMinerCrabs DAO</Button>
-			</a>
-			<a
 				href="https://github.com/Axentro/minaxnt"
 				target="_blank"
 				title="MinAXNT for the Axentro blockchain"
 			>
 				<Button block>MinAXNT, CPU only mining for Axentro</Button>
+			</a>
+			<a
+				href="https://twitter.com/theminercrabs"
+				target="_blank"
+				title="A DAO for Crabada PlayToEarn GameFi"
+			>
+				<Button block>TheMinerCrabs DAO</Button>
 			</a>
 		</div>
 		<div
