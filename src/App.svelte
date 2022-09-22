@@ -100,21 +100,12 @@
 			>
 				<Button block>TheMinerCrabs DAO : Crabada (🦀,🦀)🔺</Button>
 			</a>
-			<a href="https://kioo.fi/" target="_blank">
-				<Button block>$KIOO Reflect Token</Button>
-			</a>
 			<a
 				href="https://github.com/Axentro/minaxnt"
 				target="_blank"
 				title="MinAXNT for the Axentro blockchain"
 			>
 				<Button block>MinAXNT, CPU only mining for Axentro</Button>
-			</a>
-			<a href="/#" target="_blank">
-				<Button block>(coming soon) KiooVerse</Button>
-			</a>
-			<a href="/#" target="_blank">
-				<Button block>(coming soon) Kioo Airdrop</Button>
 			</a>
 		</div>
 		<div
