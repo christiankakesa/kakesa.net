@@ -23,30 +23,35 @@
 </script>
 
 <MaterialApp>
-	<h1 class="d-flex justify-center">
-		Christian Kakesa
-		<Divider vertical inset class="ml-4 mr-4" />
-		<Badge class="success-color" dot bottom offsetX={10} offsetY={10}>
-			<Avatar><img src={gravatarLink} alt="profile" /></Avatar>
-		</Badge>
-	</h1>
-	<div>
+	<div class="elevation-24 rounded pa-3">
+		<h1 class="d-flex justify-center">
+			Christian Kakesa
+			<Divider vertical inset class="ml-4 mr-4" />
+			<Badge class="success-color" dot bottom offsetX={10} offsetY={10}>
+				<Avatar><img src={gravatarLink} alt="profile" /></Avatar>
+			</Badge>
+		</h1>
+
 		<div class="d-flex flex-column">
 			<a
-				href="https://blog.kakesa.net"
+				href="https://www.linkedin.com/in/christiankakesa/"
 				target="_blank"
-				title="Blog, Website"
+				title="LinkedIn"
 			>
-				<Button tile block>
-					<Icon path={mdiHome} class="mr-3" /> blog.kakesa.net
+				<Button block size="x-large">
+					<Icon path={mdiLinkedin} /> @christiankakesa
 				</Button>
 			</a>
 		</div>
 
 		<div class="d-flex flex-column">
-			<a href="https://github.com/fenicks" target="_blank" title="Github">
-				<Button block>
-					<Icon path={mdiGithub} /> @fenicks
+			<a
+				href="https://github.com/christiankakesa"
+				target="_blank"
+				title="Github"
+			>
+				<Button block size="x-large">
+					<Icon path={mdiGithub} /> @christiankakesa
 				</Button>
 			</a>
 		</div>
@@ -57,7 +62,7 @@
 				target="_blank"
 				title="Twitter"
 			>
-				<Button block>
+				<Button block size="x-large">
 					<Icon path={mdiTwitter} /> @christiankakesa
 				</Button>
 			</a>
@@ -65,12 +70,12 @@
 
 		<div class="d-flex flex-column">
 			<a
-				href="https://www.linkedin.com/in/christiankakesa/"
+				href="https://blog.kakesa.net"
 				target="_blank"
-				title="LinkedIn"
+				title="Blog, Website"
 			>
-				<Button block>
-					<Icon path={mdiLinkedin} /> @christiankakesa
+				<Button block size="x-large">
+					<Icon path={mdiHome} class="mr-3" /> blog.kakesa.net
 				</Button>
 			</a>
 		</div>
@@ -81,13 +86,13 @@
 				target="_blank"
 				title="stackoverflow"
 			>
-				<Button block>
+				<Button block size="x-large">
 					<Icon path={mdiStackOverflow} /> christian-kakesa
 				</Button>
 			</a>
 		</div>
 		<div
-			class="text-center pt-8 pb-8 text-h5 elevation-2"
+			class="text-center pt-8 pb-8 text-h4 elevation-2"
 			use:Ripple={{ centered: true }}
 		>
 			Blockchain and Crypto Projects
@@ -98,18 +103,22 @@
 				target="_blank"
 				title="A DAO for Crabada PlayToEarn GameFi"
 			>
-				<Button block>TheMinerCrabs DAO : Crabada (🦀,🦀)🔺</Button>
+				<Button block size="x-large"
+					>TheMinerCrabs DAO : Crabada (🦀,🦀)🔺</Button
+				>
 			</a>
 			<a
 				href="https://github.com/Axentro/minaxnt"
 				target="_blank"
 				title="MinAXNT for the Axentro blockchain"
 			>
-				<Button block>MinAXNT, CPU only mining for Axentro</Button>
+				<Button block size="x-large"
+					>MinAXNT, CPU only mining for Axentro</Button
+				>
 			</a>
 		</div>
 		<div
-			class="text-center pt-8 pb-8 text-h5 elevation-2"
+			class="text-center pt-8 pb-8 text-h4 elevation-2"
 			use:Ripple={{ centered: true }}
 		>
 			Projects
@@ -120,7 +129,7 @@
 				target="_blank"
 				title="Congopro, Annuaire des entreprises et professionnels"
 			>
-				<Button block>Congopro</Button>
+				<Button block size="x-large">Congopro</Button>
 			</a>
 		</div>
 	</div>
