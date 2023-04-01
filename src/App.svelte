@@ -99,12 +99,12 @@
 		</div>
 		<div class="d-flex flex-column">
 			<a
-				href="https://twitter.com/theminercrabs"
+				href="https://blockchainserviceslabs.com/"
 				target="_blank"
-				title="A DAO for Crabada PlayToEarn GameFi"
+				title="Web3 and Blockchain expertise for your needs, Solidity development, Solidity audits"
 			>
 				<Button block size="x-large"
-					>TheMinerCrabs DAO : Crabada (🦀,🦀)🔺</Button
+					>Blockchain Services Labs</Button
 				>
 			</a>
 			<a
@@ -114,6 +114,15 @@
 			>
 				<Button block size="x-large"
 					>MinAXNT, CPU only mining for Axentro</Button
+				>
+			</a>
+			<a
+				href="https://twitter.com/theminercrabs"
+				target="_blank"
+				title="A DAO for Crabada PlayToEarn GameFi"
+			>
+				<Button block size="x-large"
+					>TheMinerCrabs DAO : Crabada (🦀,🦀)🔺</Button
 				>
 			</a>
 		</div>
